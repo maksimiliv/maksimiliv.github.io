@@ -1,0 +1,14 @@
+@import url(sections/main.css);
+@import url(section/font.css);
+@import url(sections/heder.css);
+@import url(sections/sidebar.css);
+@import url(sections/content.css);
+@import url(sections/footer.css);
+@import url(servises/servises.css);
+@import url(feeds/feeds.css);
+@import url(wellcome/wellcome.css);
+@import url(animate.css);
+@import url(normalize.css);
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700&subset=cyrillic');
+
