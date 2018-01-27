@@ -1,0 +1,110 @@
+
+.footer {
+    height: 76px;
+    width: 100%;
+    background:  #131415;
+    clear: both;
+    color: #fff;
+}
+
+.footer__col {
+    width: 33.3%;
+    float: left;
+}
+
+.block__info {
+    width: 240px;
+    height: 50px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.286;    
+    margin-top: 11px;
+    margin-left: 19px;
+}
+.block__info-link {
+    color: #fff;
+}
+
+.footer_logo {
+    margin-top: 13px;
+}
+
+.logotip__footer {
+    text-align: center;
+}
+
+.social__text {
+    font-size: 14px;
+    font-family: "Open Sans" sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: right;
+}
+.social {
+    width: 175px;
+    height: 45px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 19px;
+}
+
+.social__list {
+    display: inline-block;
+    text-align: right;
+    letter-spacing: 6px;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.social__item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.social__item {
+    background-color: #d0d0d0;
+    position: relative;
+}
+
+.social__item:hover {
+    background: #f89513;
+    transition: 1s;
+}
+
+.social__item:not(:hover){
+    transition: 1s;
+}
+.social__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.social__icon-vk {
+    background: url(../../img/icon-social/vk.png) center center no-repeat;
+    width: 12px;
+    height: 7px;
+}
+.social__icon-fb {
+    background: url(../../img/icon-social/fb.png) center center no-repeat;
+    width: 7px;
+    height: 14px;
+}
+.social__icon-google {
+    background: url(../../img/icon-social/google.png) center center no-repeat;
+    width: 15px;
+    height: 10px;
+}
+.social__icon-tweet {
+    background: url(../../img/icon-social/twitter.png) center center no-repeat;
+    width: 11px;
+    height: 10px;
+}
+.social__icon-mail {
+    background: url(../../img/icon-social/mail.png) center center no-repeat;
+    width: 12px;
+    height: 9px;
+}
