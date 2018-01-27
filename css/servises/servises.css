@@ -1,0 +1,96 @@
+.breadcrumps {
+    margin-top: 39px;
+    margin-bottom: 22px;
+}
+
+.breadcrumps__item {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #f89513;
+    font-style: italic;
+    line-height: 1.286;
+}
+.breadcrumps__link {
+    color: #f89513;
+}
+.slash__bradcrumps {
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumps__link_active {
+    color: black;
+    text-decoration: none;
+}
+
+.title__section {
+    font-size: 49px;
+    font-family: "Open Sans";
+    color: rgb(34, 31, 31);
+    font-weight: bold;
+    line-height: 0.776;
+    letter-spacing: -1.5px;
+}
+section {
+    margin-bottom: 48px;
+}
+
+.content__servises_list {
+    font-size: 0;
+}
+
+.servises__item {
+    margin-bottom: 49px;
+    width: 253px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 52px;
+}
+.servises__head_img {
+    margin-bottom: 24px;
+}
+
+.avatar__foto {
+    overflow: hidden;
+}
+.body__title {
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: rgb(34, 31, 31);
+    font-weight: bold;
+    line-height: 1.167;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.body__text {
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(34, 31, 31);
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+
+.avatar__foto_trx {
+    width: 250px;
+    height: 155px;
+    background: url(../../img/servises/trx2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+  .servises__avatar {
+    width: 250px;
+    height: 153px;
+    overflow: hidden;
+    border-radius: 3px;
+    background: center;
+}
+
+.servises__item:nth-of-type(3) {
+    margin-right: 0;
+}
+.servises__item:nth-of-type(6) {
+    margin-right: 0;
+}
+  

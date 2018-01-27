@@ -1,0 +1,244 @@
+
+.content__feeds{
+    width: 880px;
+    font-family: "Open Sans";
+}
+.feeds__item {
+    display: inline-block;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f8f8f8;
+}
+
+.feeds__avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: url(../../img/feeds/afro.png)center center no-repeat;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    position: relative;
+}
+.feeds__avatar:after {
+    content: "";
+    width: 160px;
+    height: 160px;
+    background: rgba(245, 245, 245, .5);
+    position: absolute;
+}
+.feeds__foto {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.feeds__about {
+    width: 700px;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+.feeds__avatar_photo {
+    width: 160px;
+    height: 160px;
+} 
+.feeds__about_date {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+    margin-top: -2px;
+}
+.feeds__about_name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.feeds__about_text {
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.7; 
+}
+.feeds__item:last-child {
+    border-bottom: 0;
+    margin-bottom: 44px;
+}
+.pagination {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.pagination__text {
+    display: inline-block;
+    margin-right: 18px;
+    color: rgb(101, 100, 100);
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+  
+.pagination__list {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 0;
+}
+.pagination__item {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Open Sans";
+    margin-top: 2px;
+}
+.pagination_link {
+    text-decoration: none;
+    color: black;
+}
+
+.pagination__item_active {
+    background: #131415;
+    border-radius: 3px;
+    margin-left: 12px;
+}
+.serial__number {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 2px;
+}
+.serial__number:hover {
+    color: #f89513;
+}
+.serial__number_active {
+    color: #f89513;
+    vertical-align: middle;
+}
+.serial__left {
+    color: rgb(101, 100, 100);
+}
+.serial__right {
+    color: rgb(101, 100, 100);
+}
+
+.forma {
+    width: 700px;
+    height: 427px;
+    background: #f5f5f5;
+    margin-bottom: 70px;
+}
+.forma-content {
+    width: 568px;
+    margin: 0 auto;
+}
+.form-title {
+    font-size: 49px;
+    font-family: "Open Sans";
+    color: rgb(34, 31, 31);
+    font-weight: bold;
+    padding-top: 33px;
+    margin-bottom: 7px;
+    margin-left: -4px;
+}
+.form-row {
+    height: 111px;
+    margin-bottom: 10px;
+}
+.form-cell__right {
+    display: inline-block;
+    margin-right: 13px;
+}
+.form-cell__left {
+    display: inline-block;
+}
+.form-field__input {
+    width: 260px;
+    height: 44px;
+    background: #fff;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-left: 8px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+input .form-field__input:focus {
+    border: 1px solid #f89513;
+}
+input:focus {
+    border: 1px solid #f89513;
+}
+
+.form-field__title {
+  margin-bottom: 9px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.form-row__textarea {
+    width: 98%;
+    height: 74%;
+    resize: none;
+    border: 1px solid transparent;
+    font-weight: lighter;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.form-row__textarea:hover {
+    border: 1px solid #f89513;
+    cursor: pointer;
+}
+.form-field__input:hover {
+    border: 1px solid #f89513;
+}
+.form__radio-input:focus {
+    border: 1px solid #f89513;
+}
+.form-row__name {
+    margin-bottom: -25px;
+}
+.form-row__text {
+    margin-bottom: 18px;
+}
+.controls-left {
+    display: inline-block;
+}
+.controls-right {
+   float: right;
+}
+button {
+    width: 126px;
+    height: 45px;
+    background: #1c1f1d;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Open Sans";
+    letter-spacing: 1.5px;
+    border-radius:  5px;
+}
+
+button:hover {
+    background: #f89513;
+    color: #fff;
+    transition: 1s;
+}
+
+button:not(:hover) {
+    transition: 1s;
+}
+.form__radio-input input {
+    padding: 10px;
+    width: 10px;
+}
+input [type="radio"] {
+    color: #f89513;
+    background: #f89513;
+}
+.form__radio-input {
+    color: #f89513;
+    background: #f89513;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #f89513;
+}
+.controls-left__buttons input {
+    background-color:  #f89513;
+    border: 1px solid #f89513;
+
+}

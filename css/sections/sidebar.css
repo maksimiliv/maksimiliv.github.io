@@ -1,0 +1,67 @@
+.nav {
+    width: 200px;
+    float: left;
+}
+.navi {
+    margin-top: 28px;
+    margin-left: 19px;
+}
+
+.nav__list_link {
+    text-decoration: none;
+}
+
+.nav__text {
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: #f89513;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 4.1;
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+.nav__icon {
+    margin-right: 14px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav__icon_pulse {
+    background: url(../../img/sidebar-icon/pulse-color.png) center center no-repeat;
+}
+.nav__icon_rod {
+    background: url(../../img/sidebar-icon/rod-color.png) center center no-repeat;
+}
+.nav__icon_star {
+    background: url(../../img/sidebar-icon/star-color.png) center center no-repeat;
+}
+
+.nav__item_active .nav__text {
+    color: #131415;
+}
+
+.nav__item_active .nav__icon_pulse {
+    background: url(../../img/sidebar-icon/pulse-black.png) center center no-repeat;
+}
+.nav__item_active .nav__icon_rod {
+    background: url(../../img/sidebar-icon/rod-black.png) center center no-repeat;
+}
+.nav__item_active .nav__icon_star {
+    background: url(../../img/sidebar-icon/star-black.png) center center no-repeat;
+}
+
+.nav__item:hover .nav__text {
+    color: #131415;
+}
+.nav__item:hover .nav__icon_pulse {
+    background: url(../../img/sidebar-icon/pulse-black.png) center center no-repeat;
+}
+.nav__item:hover .nav__icon_rod {
+    background: url(../../img/sidebar-icon/rod-black.png) center center no-repeat;
+}
+.nav__item:hover .nav__icon_star {
+    background: url(../../img/sidebar-icon/star-black.png) center center no-repeat;
+}

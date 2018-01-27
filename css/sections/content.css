@@ -1,0 +1,168 @@
+
+.content {
+    width: 880px;
+    float: left;
+    margin-bottom: 5px;
+}
+.content__img {
+    max-width: 880px;
+    width: 880px;
+    height: 355px;
+    position: relative;
+}
+
+.content__img {
+    background: url(../../img/index/content-img/content-img.png) center center no-repeat;
+    background-size: cover;
+}
+.block__img_foto {
+    width: 880px;
+    height: 355px;
+    background: BLACK;
+    opacity: .5;
+}
+
+.titlea__img {
+    font-size: 49px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 142px;
+    left: 65px;
+}
+
+.content__text {
+    width: 697px;
+    font-family: "Open Sans";
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 1.667;
+    margin-bottom: 27px;
+}
+.text__paragraph-one {
+    margin-top: 20px;
+}
+.text__paragraph-two {
+    margin-top: -2px;
+}
+.text__paragraph-three {
+    margin-top: -3px;
+}
+.text__paragraph-four {
+    margin-top: -3px;
+}
+.text__list {
+    margin-left: -41px;
+    margin-top: -4px;
+}
+
+.text__list_item {
+    margin-bottom: 17px;
+    padding-left: 38px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1;
+    background:  url(../../img/index/circle.png) 10px 10px no-repeat;
+    margin-left: 46px;
+}
+
+
+.block__services {
+    width: 700px;
+    height: 145px;
+    background: #131415;
+    color: #fff;
+    line-height: 1.667;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 12px 0 0 31px;
+    margin-bottom: 68px;
+}
+ 
+.partner__title {
+    font-size: 49px;
+    font-family: "Open Sans";
+     color: rgb(34, 31, 31);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.776;
+    margin-bottom: 50px;
+}
+
+.partner__logo {
+    width: 800px;
+}
+
+.partner__logo_list {
+    margin-left: -3px;
+}
+
+.partner__logo_item {
+    display: inline-block;
+    width: 166px;
+    height: 65px;
+    margin-right: 98px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.partner__logo_item:hover {
+    transition: 2s;
+}
+.partner__logo_link {
+    transition: 2s;
+}
+
+.partner__logo_icon {
+    width: 166px;
+    height: 65px;
+}
+
+.partner__logo_icon:hover {
+    transition: .5s;
+}
+.partner__logo_icon:not(:hover) {
+    transition: .5s;
+}
+
+.flamingo__icon {
+    background: url(../../img/index/icon_partners/flamingo-black.png) center center no-repeat;
+}
+.malibu__icon {
+    background: url(../../img/index/icon_partners/malibu-black.png) center center no-repeat;
+}
+.lion__icon {
+    background: url(../../img/index/icon_partners/lion-black.png) center center no-repeat;
+}
+.arni__icon {
+    background: url(../../img/index/icon_partners/arni-black.png) center center no-repeat;
+}
+.weight__icon {
+    background: url(../../img/index/icon_partners/weight-black.png) center center no-repeat;
+}
+.man__icon {
+    background: url(../../img/index/icon_partners/man-black.png) center center no-repeat;
+}
+
+
+.flamingo__icon:hover {
+    background: url(../../img/index/icon_partners/flamingo-color.png) center center no-repeat;
+}
+.malibu__icon:hover {
+    background: url(../../img/index/icon_partners/malibu-color.png) center center no-repeat;
+    display: block;
+}
+.lion__icon:hover {
+    background: url(../../img/index/icon_partners/lion-color.png) center center no-repeat;
+}
+.arni__icon:hover {
+    background: url(../../img/index/icon_partners/arni-color.png) center center no-repeat;
+}
+.weight__icon:hover {
+    background: url(../../img/index/icon_partners/weight-color.png) center center no-repeat;
+}
+.man__icon:hover {
+    background: url(../../img/index/icon_partners/man-color.png) center center no-repeat;
+}

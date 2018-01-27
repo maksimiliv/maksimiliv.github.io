@@ -1,0 +1,106 @@
+
+header {
+    height: 76px;
+    background: #131415;
+    width: 100%;
+}
+.head__left {
+    float: left;
+    width: 50%;
+}
+.head__right {
+    float: right;
+    width: 50%;
+}
+.head__number {
+    float: right;
+}
+.logotip {
+    font-size: 18px;
+    font-family: "Gora Free";
+    color: rgb(248, 149, 19);
+    text-transform: uppercase;
+    line-height: 3;
+    letter-spacing: 2px;
+}
+
+.logotip__haed {
+    margin-top: 13px;
+    margin-left: 19px;
+}
+
+.logotip__link {
+    text-decoration: none;
+    color: #f89513;
+}
+
+.number {
+    margin-top: 14px;
+    margin-right: 21px;
+    font-size: 21px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.work__time {
+    margin-right: 22px;
+    margin-top: 3px;
+    text-align: right;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgba(248, 149, 19, 0.702);
+    font-weight: bold;
+    text-decoration: underline;
+    position: relative;
+}
+
+.work__time_link {
+    color: #f89513;
+}
+
+.tringle__menu {
+    width: 163px;
+    height: 70px;
+    background: #f4f4f4;
+    position: absolute;
+    z-index: 1;
+    margin-top: 21px;
+    border-radius: 4px;
+    top: 100%;
+    left: -99999px;
+    margin-right: -172px;
+    opacity: 0.949;
+    box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+}
+.tringle {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;;
+    border-bottom: 12px solid #f4f4f4;
+    position: absolute;
+    bottom: 99%;
+    left: 100%;
+    margin-left: -25px;
+}
+.work__day {
+    color: #f89513;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.286;
+    margin-top: 13px;
+}
+.work__lunch {
+    text-align: center;
+    font-weight: lighter;
+    color: black;
+    margin-top: 4px;
+    margin-right: 11px;
+}
+.work__time:hover .tringle__menu {
+    left: initial;
+    right: 100%;
+}
+.work__time:hover .work__time_link {
+    color: #fff;
+}
